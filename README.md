@@ -21,7 +21,7 @@ Considering that the robot would be displayed before hundreds of individuals thr
 ## Repository preface :blush:
 Please note, this was a real project with real deadlines. The mechanical engineering took longer than expected and (due to my own time management & full time job) I was left with only a few evenings to write and test the software. No one likes cutting corners, but it's important to be pragmatic. With the key requirements in mind (safefy and robustness) I consciously chose to skip over implementing hardware abstration layers (HAL), interfaces, dependency injection & unit testing. Instead, I focused on implementing a robust state machine and various safety features. Checkout the [software improvements](docs/software-improvements.md) that I am planning to make in the future. 
 
-## Getting starting & running the code :rocket:
+## Getting started & running the code :rocket:
 
 ### Hardware requirements
 This software is used to control a custom-built robot, of which, only one was ever made. So, without that robot it won't be possible to fully run/test this software out-of-the-box. With that said, if you are interested in the specific robot, have a look at the pictures of the design process [here](https://davidrockjedeikin.com/karate-sculpture-robot). Perhaps you could build your own version of the robot using the same components that I did.   
