@@ -59,7 +59,7 @@ The application software is sequential and consists of one high-level and two mi
 * Hardware interfacing code: `src/hardware`
 * Logging code: `src/logging` 
 
-## Steps to enable Clangd language server 
+## Steps to enable Clangd language server :speak_no_evil:
 I personally prefer [Clangd](https://marketplace.visualstudio.com/items?itemName=llvm-vs-code-extensions.vscode-clangd) as a language server over [Microsoft's C++ IntelliSense](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools). 
 
 The following steps are required to enable the Clangd language server.
