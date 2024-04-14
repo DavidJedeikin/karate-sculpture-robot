@@ -31,7 +31,7 @@ This software is used to control a custom-build robot, of which, only one was ev
 * 2x [HC-SR04 Sonar Sensor](https://www.amazon.co.uk/Smraza-Ultrasonic-Distance-Mounting-Duemilanove-5pcs-Module/dp/B01JG09DCK/ref=sr_1_5?adgrpid=53481003552&dib=eyJ2IjoiMSJ9.V5txWTwtLmny16N_F-RsgtdF-9UQuaWi753gyFHZcg-1bSeiVdQl8l0oEsGYRsWtyj8WaXWbKf4P2oFwScreWrUiQDmsv24KdJ8rmn6ejOh2MlUQqfIwfbE9gUmXZOVLFxYJrVXPMEc4yarKl9UzbpiwZ6rP2w9YSmXA1adrqCmWgZ0G0gV5axN1xVW7TyTV8Mt-KIj130Yfc0gPpIXY22AREvMc8mlCxuca6USlKGhj3vWAE58MBdwAJLnScg4R1l1dMn1AxgcDyr3YqABYLz-V27uS0eDewdmxXQ5YiSE.wKphLUkrVo28UJ50ygJGdhBVIDDlaagRxuGwxIltHvM&dib_tag=se&hvadid=259049745574&hvdev=c&hvlocint=9045999&hvlocphy=9074119&hvnetw=g&hvqmt=e&hvrand=10445171782019032705&hvtargid=kwd-296166699340&hydadcr=22927_1807007&keywords=hc+sr04&qid=1712665752&sr=8-5)
 * 1x [Adafruit PCA9685 16-Channel Servo Driver](https://learn.adafruit.com/16-channel-pwm-servo-driver/using-the-adafruit-library)
 
-### Software Requirements, building & flashing the code 
+### Software Requirements, Building & Flashing The Code 
 
 As mentioned above, you won't be able to run this software out-of-box without the actual robot. However, you should still be able to compile the software and/or deploy it to a similar microprocessor. Feel free to use any of the components or patterns in the repo, but do me a favour and :star: it :smile: 
 
