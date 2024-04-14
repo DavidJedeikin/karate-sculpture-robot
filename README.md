@@ -64,7 +64,6 @@ I personally prefer [Clangd](https://marketplace.visualstudio.com/items?itemName
 
 The following steps are required to enable the Clangd language server.
 
-See `.clang-tidy` for all linting rules. 
 
 
 1. Disable the cpp IntelliSense engine
@@ -81,3 +80,5 @@ The two cannot co-exists, but PlatformIO depends on the extension for dependency
 ```
 extra_scripts = hook_compile_commands.py, pre:generateCompileCommands.py
 ```
+
+See `.clang-tidy` for all linting rules. 
