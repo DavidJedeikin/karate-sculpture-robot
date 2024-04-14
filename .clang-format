@@ -1,0 +1,66 @@
+---
+################################################
+# Use an established style for most options
+################################################
+Language: Cpp
+BasedOnStyle: Microsoft
+
+################################################
+# Only override options we really want
+################################################
+
+# Self-explanatory
+ColumnLimit: 80
+IndentWidth: 2
+
+# Public/Protected/Private modifiers offset by -1
+AccessModifierOffset: -1
+
+# Arguments & parameters must be all on the same line, OR have one line each
+BinPackArguments: false
+BinPackParameters: false
+
+# Prefer:
+#   auto const& varName
+#   auto const* varName
+# Prevent:
+#   auto const &varName
+#   auto const *varName
+PointerAlignment: Left
+ReferenceAlignment: Pointer
+
+# Prefer:
+#   inline static int const varName
+# Prevent:
+#   inline static const int varName
+QualifierAlignment: Custom
+QualifierOrder: ["inline", "static", "type", "const"]
+
+# Prefer:
+#   switch (var)
+#   {
+#     case Enum::val:
+#       doSomething()
+# Prevent:
+#   switch (var)
+#   {
+#   case Enum::val:
+#     doSomething()
+IndentCaseLabels: true
+
+# Prefer:
+#  struct X
+#  {
+#  };
+#
+#  struct Y
+#  {
+#  };
+# Prevent:
+#  struct X
+#  {
+#  };
+#  struct Y
+#  {
+#  };
+SeparateDefinitionBlocks: Always
