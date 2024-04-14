@@ -24,7 +24,7 @@ Please note, this was a real project with real deadlines. The mechanical enginee
 ## Getting starting & running the code :rocket:
 
 ### Hardware Requirements
-This software is used to control a custom-build robot, of which, only one was build. So, without that robot it won't be possible to fully run/test this software out-of-the-box. With that said, if you are intersted in the specific robot, have a look at the pictures of the design process [here](https://davidrockjedeikin.com/karate-sculpture-robot) and perhaps you could build your own version of the robot using the same off-the-shelf hardware components that I did.   
+This software is used to control a custom-build robot, of which, only one was ever made. So, without that robot it won't be possible to fully run/test this software out-of-the-box. With that said, if you are intersted in the specific robot, have a look at the pictures of the design process [here](https://davidrockjedeikin.com/karate-sculpture-robot) and perhaps you could build your own version of the robot using the same off-the-shelf hardware components that I did.   
 
 * 1x [Adafruit Feather nRF52 Bluefruit LE - nRF52832](https://www.adafruit.com/product/3406)
 * 3x [High Torque Servo Motor](https://thepihut.com/products/35kg-high-torque-metal-waterproof-servo)
