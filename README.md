@@ -64,12 +64,13 @@ I personally prefer [Clangd](https://marketplace.visualstudio.com/items?itemName
 
 The following steps are required to enable the Clangd language server.
 
-See `.clang-tidy` for all linting rules 
+See `.clang-tidy` for all linting rules. 
 
 
-1. Disable the cpp intelliSense engine
+1. Disable the cpp IntelliSense engine
 
-The two cannot co-exists, but PlatformIo depends on the extension for dependency management. You can include the following in your settings.json
+The two cannot co-exists, but PlatformIO depends on the extension for dependency management. You can include the following in your settings.json
+
 ```
   "C_Cpp.intelliSenseEngine": "disabled"
 ```
